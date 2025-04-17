@@ -35,3 +35,24 @@ To gain practical, hands-on experience in the core stages of penetration testing
 <b>.</b>
 <br/>
 
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+## Outcome
+- Practical Understanding of the Attack Lifecycle: Gained end-to-end experience with a simulated attack, from discovery to exploitation and privilege escalation.
+- Bridged Theory and Real-World Practice: Reinforced foundational concepts with hands-on implementation, preparing for complex red team/blue team operations.
+- Enhanced Threat Awareness: Improved recognition of common misconfigurations in SSH, Samba, and Linux privilege escalation vectors.
+- Security Analyst Readiness: Developed a mindset for identifying vulnerabilities and anticipating attacker tactics—critical for threat detection, incident response, and vulnerability management in a Security Analyst role.
+
+## Acknowledgements
+This project combines ideas and methods from various sources, such as the Basic Penetration Testing by John Hammond and my IT experience. These resources provided the fundamental information and techniques, which were then modified in light of practical uses. 
+ - [John Hammond](https://www.youtube.com/watch?v=xl2Xx5YOKcI&t=57s)
+ - []()
+
+## Disclaimer
+The sole goals of the projects and activities here are for education and ethical cybersecurity research. All work was conducted in controlled environments, such as paid cloud spaces, private labs, and online cybersecurity education platforms. Online learning and cloud tasks adhered closely to all usage guidelines. Never use these projects for improper or unlawful purposes. It is always prohibited to break into any computer system or network. Any misuse of the provided information or code is not the responsibility of the author or authors.
+ 
+

@@ -38,8 +38,7 @@ To gain practical, hands-on experience in the core stages of penetration testing
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/02_This scan identifies open ports on the target machine.png
-" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/02_This scan identifies open ports on the target machine.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>This scan identifies open ports on the target machine, detects running services and their versions, and executes default scripts to gather additional information or uncover potential issues.</b>
 <br/>

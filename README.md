@@ -130,31 +130,26 @@ To gain practical, hands-on experience in the core stages of penetration testing
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/13_We’ll attempt to read_1.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/13_We’ll attempt to read_2.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>We’ll attempt to read Kay’s private SSH key and save a copy for later use..</b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
+<b>We’ll attempt to read Kay’s private SSH key and save a copy for later use.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/14_We’ll convert the _1.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/14_We’ll convert the _2.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>We’ll convert the private key to a John-compatible format, then use a wordlist with John the Ripper to crack the passphrase. The password for kay_id_rsa was successfully recovered.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/15_Using the saved.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<b>Using the saved private key and the recovered passphrase, we can SSH into the machine and have successfully gained root access.</b>
 <br/>
-
 
 ## Outcome
 - Practical Understanding of the Attack Lifecycle: Gained end-to-end experience with a simulated attack, from discovery to exploitation and privilege escalation.

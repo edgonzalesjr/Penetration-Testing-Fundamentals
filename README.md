@@ -52,8 +52,89 @@ To gain practical, hands-on experience in the core stages of penetration testing
    - Samba (ports 139, 445): Samba file sharing enabled, version 4.3.11.
    - AJP (port 8009): Apache JServ Protocol active.
    - Tomcat (port 8080): Apache Tomcat 9.0.7 web server interface.
- 
-   Additional script results show system info like hostname (BASIC2), OS details, time settings, and Samba security configurations. Message signing is not required, which could be a security risk..</b>
+</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/04_Interact with the running website_1.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/04_Interact with the running website_2.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Interact with the running website, then view the page source to inspect the HTML code.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/05_The comment suggests we try navigating to the dev folder.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>The comment suggests we try navigating to the /dev folder. We've also identified that the server is running Apache/2.4.18 (Ubuntu).</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/06_As the available paths on the web server are unknown_1.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/06_As the available paths on the web server are unknown_2.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/06_As the available paths on the web server are unknown_3.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/06_As the available paths on the web server are unknown_4.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>As the available paths on the web server are unknown, we used a tool to enumerate potential directories. This revealed a /development folder, which contains a directory listing with several text files.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/07_To identify possible users on the target machine_1.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/07_To identify possible users on the target machine_2.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>To identify possible users on the target machine, we decided to explore the SMB service using enum4linux. This revealed two Linux user accounts.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/08_Since the note suggests that user jan.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Since the note suggests that user 'jan' has a weak password, we’ll use Hydra to attempt a brute-force login.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/09_Hydra successfully brute-forced the SSH login.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Hydra successfully brute-forced the SSH login with the username 'jan' and the password 'armando', granting access to the system.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/10_We now have the credentials to log in.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>We now have the credentials to log in to the machine via SSH. Let’s initiate the SSH connection.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/11_We’ll perform some basic tasks_1.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/11_We’ll perform some basic tasks_2.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/11_We’ll perform some basic tasks_3.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>We’ll perform some basic tasks on the machine.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/12_We’ll transfer and run linpeas_1.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/12_We’ll transfer and run linpeas_2.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/12_We’ll transfer and run linpeas_3.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/12_We’ll transfer and run linpeas_4.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>We’ll transfer and run linpeas.sh on the remote machine for privilege escalation, which revealed private SSH keys.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>We’ll attempt to read Kay’s private SSH key and save a copy for later use..</b>
 <br/>
 
 <p align="center">
@@ -74,29 +155,6 @@ To gain practical, hands-on experience in the core stages of penetration testing
 <b>.</b>
 <br/>
 
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
-<br/>
 
 ## Outcome
 - Practical Understanding of the Attack Lifecycle: Gained end-to-end experience with a simulated attack, from discovery to exploitation and privilege escalation.

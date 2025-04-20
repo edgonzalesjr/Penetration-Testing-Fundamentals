@@ -44,9 +44,16 @@ To gain practical, hands-on experience in the core stages of penetration testing
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/03_The scan shows that the host 192.168.10.3 is online.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<b>The scan shows that the host 192.168.10.3 is online with several open services:
+   - SSH (port 22): Running OpenSSH 7.2p2 on Ubuntu.
+   - HTTP (port 80): Apache 2.4.18 web server.
+   - Samba (ports 139, 445): Samba file sharing enabled, version 4.3.11.
+   - AJP (port 8009): Apache JServ Protocol active.
+   - Tomcat (port 8080): Apache Tomcat 9.0.7 web server interface.
+ 
+   Additional script results show system info like hostname (BASIC2), OS details, time settings, and Samba security configurations. Message signing is not required, which could be a security risk..</b>
 <br/>
 
 <p align="center">

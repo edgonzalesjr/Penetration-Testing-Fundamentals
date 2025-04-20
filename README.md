@@ -32,6 +32,54 @@ To gain practical, hands-on experience in the core stages of penetration testing
 ## Practical Exercises
 
 <p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/01_Run a ping sweep on the network.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Run a ping sweep on the network. The IP address of the target machine has been identified.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
 <img src="https://github.com/edgonzalesjr/Penetration-Testing-Fundamentals/blob/main/images/.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>.</b>

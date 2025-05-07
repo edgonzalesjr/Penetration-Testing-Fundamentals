@@ -27,7 +27,7 @@ To gain practical, hands-on experience in the core stages of penetration testing
 - Gobuster:	Web directory brute-forcing.
 - enum4linux:	User enumeration from Samba shares.
 - Hydra:	Password brute-forcing for authentication services.
-- LinPeas	Privilege: escalation enumeration and vulnerability discovery.
+- LinPeas: escalation enumeration and vulnerability discovery.
 
 ## Practical Exercises
 
